@@ -6,11 +6,9 @@ def is_shuffled_enough(arr):
             return False
     return True
 
-# 🔢 Take input from the user
 user_input = input("Enter 10 numbers: ")
 numbers = list(map(int, user_input.strip().split(',')))
 
-# ✅ Check if it's shuffled enough
 if is_shuffled_enough(numbers):
     print("True")
 else:
